@@ -53,9 +53,9 @@ Each file contains:
 
 | Difficulty | Solved | Link |
 |-------------|---------|------|
-| Easy        | XX ✅    | [Easy Folder](./Easy) |
-| Medium      | XX ⚙️   | [Medium Folder](./Medium) |
-| Hard        | XX 🔥   | [Hard Folder](./Hard) |
+| Easy        | XX ✅    | [Easy Directory](./Easy) |
+| Medium      | XX ⚙️   | [Medium Directory](./Medium) |
+| Hard        | XX 🔥   | [Hard Directory](./Hard) |
 
 *(I’ll update this table as I progress!)*
 
