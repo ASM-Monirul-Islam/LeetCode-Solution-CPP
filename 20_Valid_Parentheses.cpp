@@ -1,6 +1,3 @@
-#include<bits/stdc++.h>
-using namespace std;
-
 class Solution {
 public:
     bool isValid(string s) {
@@ -24,15 +21,3 @@ public:
 		return st.empty();
     }
 };
-
-int main() {
-	Solution obj;
-	string s;
-	cin>>s;
-	if(obj.isValid(s)) {
-		cout<<"True"<<endl;
-	}else {
-		cout<<"False"<<endl;
-	}
-	return 0;
-}
