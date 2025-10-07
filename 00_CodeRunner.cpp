@@ -1,38 +1,12 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-class Solution {
-public:
-    bool isValid(string s) {
-        unordered_map<char, char>mp {
-			{')', '('},
-			{'}', '{'},
-			{']', '['}
-		};
-		stack<char>st;
-		for(auto c:s) {
-			if(mp.count(c)) {
-				if(!st.empty() and st.top()==mp[c]) {
-					st.pop();
-				}else {
-					return false;
-				}
-			}else {
-				st.push(c);
-			}
-		}
-		return st.empty();
-    }
-};
-
 int main() {
-	Solution obj;
-	string s;
-	cin>>s;
-	if(obj.isValid(s)) {
-		cout<<"True"<<endl;
-	}else {
-		cout<<"False"<<endl;
-	}
-	return 0;
+    vector<int>v={1,2,2,3};
+    cout<<v.size()<<endl;
+    sort(v.begin(), v.end());
+    auto i=unique(v.begin(), v.end());
+    v.erase(i, v.end());
+    cout<<v.size()<<endl;
+    return 0;
 }
